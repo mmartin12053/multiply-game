@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>solve it math game || multiplication</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+ <select name="difficalty" id="level">
+  <option value="lvl1">level1</option> 
+  <option value="lvl2">level2</option> 
+  <option value="lvl3">level3</option> 
+  </select> 
+  <button type="button" onclick="start()">start</button>
+    <h1 id="problem"></h1>
+    <input id="solution"></input>
+    <button id="btnCheck" onclick="checkAnswer()">check answer</button>
+    <p id="sploorf"></p>
+    <table>
+      <tr>
+        <th>your score</th>
+        <th>high score</th>
+      </tr>
+      <tr>
+        <td id = "ps">0</td>
+        <td id = "hs">0</td>
+      </tr>
+    </table>
+    <br>
+    <button id="btnCheck" onclick="restart()">restart</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
